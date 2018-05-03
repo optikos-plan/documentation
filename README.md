@@ -2,31 +2,31 @@
 
 ## Schema design:
 ## project 
-  -title
+  - title
 
 ## tasks
-  -start date
-  -end date
-  -status
-  -description
-  -title
-  -documents
-  -tasks as dependencies (hasMany)
-  -projectId
+  - start date
+  - end date
+  - status
+  - description
+  - title
+  - documents
+  - tasks as dependencies (hasMany)
+  - projectId
 
 ## comments
-  -userId
-  -taskId
+  - userId
+  - taskId
  
 ## users
-  -name
-  -email
-  -password
-  -googleauth
-  -tasks (hasMany)
+  - name
+  - email
+  - password
+  - googleauth
+  - tasks (hasMany)
   
 ## documents
-  -upload date
-  -title
-  -link
-  -taskId
+  - upload date
+  - title
+  - link
+  - taskId
