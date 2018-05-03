@@ -1,10 +1,10 @@
 # Documentation
 
-Schema design:
--project 
+## Schema design:
+## project 
   -title
 
--tasks
+## tasks
   -start date
   -end date
   -status
@@ -14,18 +14,18 @@ Schema design:
   -tasks as dependencies (hasMany)
   -projectId
 
--comments
+## comments
   -userId
   -taskId
  
--users
+## users
   -name
   -email
   -password
   -googleauth
   -tasks (hasMany)
   
--documents
+## documents
   -upload date
   -title
   -link
